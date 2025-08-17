@@ -134,7 +134,6 @@ class App
     {
         Console.Title = "TinyNote-TUI";
 
-        NoteManager.Init();
         Application.Init();
 
         Colors.Base.Normal    = Application.Driver.MakeAttribute(Color.BrightYellow, Color.Black);
@@ -145,6 +144,8 @@ class App
         Colors.TopLevel.Focus = Application.Driver.MakeAttribute(Color.Black, Color.BrightYellow);
         Colors.Menu.Normal    = Application.Driver.MakeAttribute(Color.BrightCyan, Color.Black);
         Colors.Menu.Focus     = Application.Driver.MakeAttribute(Color.Black, Color.BrightCyan);
+
+        NoteManager.Init();
 
         SetupUI();
         RefreshNotes();
