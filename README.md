@@ -23,10 +23,9 @@
 ---
 
 ## showcase
-
-![Screenshot_main](./git_assets\Screenshot_main.png)
-![Screenshot_note_open](./git_assets\Screenshot_note_open.png)
-![Screenshot_creator](./git_assets\Screenshot_creator.png)
+![Screenshot_main](git_assets/Screenshot_main.png)
+![Screenshot_note_open](git_assets/Screenshot_note_open.png)
+![Screenshot_creator](git_assets/Screenshot_creator.png)
 
 ---
 
@@ -45,6 +44,7 @@
 ## Backend Overview
 
 TinyNote stores all notes in the `%appdata%/TinyNote` directory. On startup, the application checks if this directory exists - if not, it creates it. Each .tn file in this folder is added into NoteBuffer and represented as a Note object. In the TUI, a side panel displays buttons for each note object.
+
 
 
 
